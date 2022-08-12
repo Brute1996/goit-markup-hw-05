@@ -286,6 +286,25 @@ body{
     flex-wrap: wrap;
 }
 
+.wedo-pic-wrapper{
+    position: relative;
+}
+
+.wedo-item-title{
+    position: absolute;
+    bottom: 0;
+    min-height: 70px;
+    width: 100%;
+    padding: 27px 0;
+
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--fourth-font-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    text-align: center;
+}
+
 /* ----------------------Team SECTION----------------- */
 .team-section{
     background-color: var(--team-section-bgc-color);
